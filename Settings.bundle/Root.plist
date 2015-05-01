@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PreferenceSpecifiers</key>
+	<array>
+		<dict>
+			<key>Title</key>
+			<string>Ascent Rates (MPH)</string>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+		</dict>
+        
+        <dict>
+            <key>Type</key>
+            <string>PSMultiValueSpecifier</string>
+            <key>Title</key>
+            <string>Easy Terrain</string>
+            <key>Key</key>
+            <string>ascent_rate_1</string>
+            <key>DefaultValue</key>
+            <real>2.5</real>
+            <key>Values</key>
+            <array>
+                <real>0.5</real>
+                <real>1.0</real>
+                <real>1.5</real>
+                <real>2.0</real>
+                <real>2.5</real>
+                <real>3.0</real>
+                <real>3.5</real>
+                <real>4.0</real>
+                <real>4.5</real>
+                <real>5.0</real>
+            </array>
+            <key>Titles</key>
+            <array>
+                <string>0.5 MPH</string>
+                <string>1.0 MPH</string>
+                <string>1.5 MPH</string>
+                <string>2.0 MPH</string>
+                <string>2.5 MPH</string>
+                <string>3.0 MPH</string>
+                <string>3.5 MPH</string>
+                <string>4.0 MPH</string>
+                <string>4.5 MPH</string>
+                <string>5.0 MPH</string>
+            </array>
+        </dict>
+        
+        <dict>
+            <key>Type</key>
+            <string>PSMultiValueSpecifier</string>
+            <key>Title</key>
+            <string>Moderate Terrain</string>
+            <key>Key</key>
+            <string>ascent_rate_2</string>
+            <key>DefaultValue</key>
+            <real>1.5</real>
+            <key>Values</key>
+            <array>
+                <real>0.5</real>
+                <real>1.0</real>
+                <real>1.25</real>
+                <real>1.5</real>
+                <real>1.75</real>
+                <real>2.0</real>
+                <real>2.25</real>
+                <real>2.5</real>
+                <real>3.0</real>
+                <real>3.5</real>
+            </array>
+            <key>Titles</key>
+            <array>
+                <string>0.50 MPH</string>
+                <string>1.0  MPH</string>
+                <string>1.25 MPH</string>
+                <string>1.5  MPH</string>
+                <string>1.75 MPH</string>
+                <string>2.0  MPH</string>
+                <string>2.25 MPH</string>
+                <string>2.5  MPH</string>
+                <string>3.0  MPH</string>
+                <string>3.50 MPH</string>
+            </array>
+        </dict>
+
+<dict>
+    <key>Type</key>
+    <string>PSMultiValueSpecifier</string>
+    <key>Title</key>
+    <string>Dificult Terrain</string>
+    <key>Key</key>
+    <string>ascent_rate_3</string>
+    <key>DefaultValue</key>
+    <real>0.5</real>
+    <key>Values</key>
+    <array>
+        <real>0.25</real>
+        <real>0.5</real>
+        <real>0.75</real>
+        <real>1.0</real>
+        <real>1.25</real>
+        <real>1.5</real>
+        <real>1.75</real>
+        <real>2.0</real>
+        <real>2.25</real>
+        <real>2.5</real>
+    </array>
+    <key>Titles</key>
+    <array>
+        <string>0.25 MPH</string>
+        <string>0.5  MPH</string>
+        <string>0.75 MPH</string>
+        <string>1.0  MPH</string>
+        <string>1.25 MPH</string>
+        <string>1.5  MPH</string>
+        <string>1.75 MPH</string>
+        <string>2.0  MPH</string>
+        <string>2.25 MPH</string>
+        <string>2.5  MPH</string>
+    </array>
+</dict>
+
+
+		<dict>
+			<key>Type</key>
+			<string>PSMultiValueSpecifier</string>
+			<key>Title</key>
+			<string>Feet Per Hour (Add On)</string>
+			<key>Key</key>
+			<string>feet_per_hour</string>
+			<key>DefaultValue</key>
+			<integer>2000</integer>
+			<key>Values</key>
+			<array>
+				<integer>1000</integer>
+				<integer>1500</integer>
+				<integer>2000</integer>
+				<integer>2500</integer>
+				<integer>3000</integer>
+			</array>
+			<key>Titles</key>
+			<array>
+				<string>1000 </string>
+				<string>1500</string>
+				<string>2000</string>
+				<string>2500</string>
+				<string>3000</string>
+			</array>
+		</dict>
+		<dict>
+			<key>Title</key>
+			<string>Descent Rates (MPH)</string>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+		</dict>
+        
+
+
+<dict>
+    <key>Type</key>
+    <string>PSMultiValueSpecifier</string>
+    <key>Title</key>
+    <string>Easy Terrain</string>
+    <key>Key</key>
+    <string>descent_rate_1</string>
+    <key>DefaultValue</key>
+    <real>3.0</real>
+    <key>Values</key>
+    <array>
+        <real>1.0</real>
+        <real>1.5</real>
+        <real>2.0</real>
+        <real>2.5</real>
+        <real>3.0</real>
+        <real>3.5</real>
+        <real>4.0</real>
+        <real>4.5</real>
+        <real>5.0</real>
+    </array>
+    <key>Titles</key>
+    <array>
+        <string>1.0 MPH</string>
+        <string>1.5 MPH</string>
+        <string>2.0 MPH</string>
+        <string>2.5 MPH</string>
+        <string>3.0 MPH</string>
+        <string>3.5 MPH</string>
+        <string>4.0 MPH</string>
+        <string>4.5 MPH</string>
+        <string>5.0 MPH</string>
+    </array>
+</dict>
+
+<dict>
+    <key>Type</key>
+    <string>PSMultiValueSpecifier</string>
+    <key>Title</key>
+    <string>Moderate Terrain</string>
+    <key>Key</key>
+    <string>descent_rate_2</string>
+    <key>DefaultValue</key>
+    <real>2.5</real>
+    <key>Values</key>
+    <array>
+        <real>1.0</real>
+        <real>1.5</real>
+        <real>2.0</real>
+        <real>2.5</real>
+        <real>3.0</real>
+        <real>3.5</real>
+        <real>4.0</real>
+        <real>4.5</real>
+        <real>5.0</real>
+    </array>
+    <key>Titles</key>
+    <array>
+        <string>1.0 MPH</string>
+        <string>1.5 MPH</string>
+        <string>2.0 MPH</string>
+        <string>2.5 MPH</string>
+        <string>3.0 MPH</string>
+        <string>3.5 MPH</string>
+        <string>4.0 MPH</string>
+        <string>4.5 MPH</string>
+        <string>5.0 MPH</string>
+    </array>
+</dict>
+
+
+<dict>
+    <key>Type</key>
+    <string>PSMultiValueSpecifier</string>
+    <key>Title</key>
+    <string>Difficult Terrain</string>
+    <key>Key</key>
+    <string>descent_rate_3</string>
+    <key>DefaultValue</key>
+    <real>0.5</real>
+    <key>Values</key>
+    <array>
+        <real>0.25</real>
+        <real>0.5</real>
+        <real>0.75</real>
+        <real>1.0</real>
+        <real>1.25</real>
+        <real>1.5</real>
+        <real>1.75</real>
+        <real>2.0</real>
+        <real>2.5</real>
+    </array>
+    <key>Titles</key>
+    <array>
+        <string>0.25 MPH</string>
+        <string>0.5  MPH</string>
+        <string>0.75 MPH</string>
+        <string>1.0  MPH</string>
+        <string>1.25 MPH</string>
+        <string>1.5  MPH</string>
+        <string>1.75 MPH</string>
+        <string>2.0  MPH</string>
+        <string>2.5  MPH</string>
+    </array>
+</dict>
+				<dict>
+			<key>Title</key>
+			<string>Breaks</string>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSMultiValueSpecifier</string>
+			<key>Title</key>
+			<string>Break Time</string>
+			<key>Key</key>
+			<string>break_mins_per_hour</string>
+			<key>DefaultValue</key>
+			<integer>10</integer>
+			<key>Titles</key>
+			<array>
+				<string>None</string>
+				<string>5  Minutes Per Hour</string>
+				<string>10 Minutes Per Hour</string>
+				<string>15 Minutes Per Hour</string>
+				<string>20 Minutes Per Hour</string>
+			</array>
+			<key>Values</key>
+			<array>
+				<integer>0</integer>
+				<integer>5</integer>
+				<integer>10</integer>
+				<integer>15</integer>
+				<integer>20</integer>
+			</array>
+		</dict>
+        
+        <dict>
+            <key>Type</key>
+            <string>PSMultiValueSpecifier</string>
+            <key>Title</key>
+            <string>Summit Break</string>
+            <key>Key</key>
+            <string>summit_break</string>
+            <key>DefaultValue</key>
+            <integer>30</integer>
+            <key>Titles</key>
+            <array>
+                <string>None</string>
+                <string>15 Min Summit Break</string>
+                <string>30 Min Summit Break</string>
+                <string>45 Min Summit Break</string>
+                <string>60 Min Summit Break</string>
+            </array>
+            <key>Values</key>
+            <array>
+                <integer>0</integer>
+                <integer>15</integer>
+                <integer>30</integer>
+                <integer>45</integer>
+                <integer>60</integer>
+            </array>
+        </dict>
+
+        
+		<dict>
+			<key>Title</key>
+			<string>Pack Weight Factor</string>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSSliderSpecifier</string>
+			<key>Key</key>
+			<string>pack_weight_factor</string>
+			<key>DefaultValue</key>
+			<real>0.08</real>
+			<key>MinimumValue</key>
+			<real>0.01</real>
+			<key>MaximumValue</key>
+			<real>0.2</real>
+		</dict>
+	</array>
+</dict>
+</plist>

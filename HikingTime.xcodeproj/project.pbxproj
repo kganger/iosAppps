@@ -1,0 +1,435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		604672341ACF12E900691DA8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 604672331ACF12E900691DA8 /* AppDelegate.swift */; };
+		604672361ACF12E900691DA8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 604672351ACF12E900691DA8 /* ViewController.swift */; };
+		604672391ACF12E900691DA8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 604672371ACF12E900691DA8 /* Main.storyboard */; };
+		6046723B1ACF12E900691DA8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6046723A1ACF12E900691DA8 /* Images.xcassets */; };
+		6046723E1ACF12E900691DA8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6046723C1ACF12E900691DA8 /* LaunchScreen.xib */; };
+		6046724A1ACF12E900691DA8 /* HikingTimeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 604672491ACF12E900691DA8 /* HikingTimeTests.swift */; };
+		605925221AF3C15100CDE5CF /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 605925211AF3C15100CDE5CF /* iAd.framework */; };
+		60A82F691AD46D0C00D948CC /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 60A82F681AD46D0C00D948CC /* Settings.bundle */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		604672441ACF12E900691DA8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 604672261ACF12E900691DA8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6046722D1ACF12E900691DA8;
+			remoteInfo = HikingTime;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6046722E1ACF12E900691DA8 /* HikingTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HikingTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		604672321ACF12E900691DA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		604672331ACF12E900691DA8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		604672351ACF12E900691DA8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		604672381ACF12E900691DA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6046723A1ACF12E900691DA8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6046723D1ACF12E900691DA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		604672431ACF12E900691DA8 /* HikingTimeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HikingTimeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		604672481ACF12E900691DA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		604672491ACF12E900691DA8 /* HikingTimeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikingTimeTests.swift; sourceTree = "<group>"; };
+		605925211AF3C15100CDE5CF /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		60A82F681AD46D0C00D948CC /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6046722B1ACF12E900691DA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				605925221AF3C15100CDE5CF /* iAd.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		604672401ACF12E900691DA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		604672251ACF12E900691DA8 = {
+			isa = PBXGroup;
+			children = (
+				605925211AF3C15100CDE5CF /* iAd.framework */,
+				60A82F681AD46D0C00D948CC /* Settings.bundle */,
+				604672301ACF12E900691DA8 /* HikingTime */,
+				604672461ACF12E900691DA8 /* HikingTimeTests */,
+				6046722F1ACF12E900691DA8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6046722F1ACF12E900691DA8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6046722E1ACF12E900691DA8 /* HikingTime.app */,
+				604672431ACF12E900691DA8 /* HikingTimeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		604672301ACF12E900691DA8 /* HikingTime */ = {
+			isa = PBXGroup;
+			children = (
+				604672331ACF12E900691DA8 /* AppDelegate.swift */,
+				604672351ACF12E900691DA8 /* ViewController.swift */,
+				604672371ACF12E900691DA8 /* Main.storyboard */,
+				6046723A1ACF12E900691DA8 /* Images.xcassets */,
+				6046723C1ACF12E900691DA8 /* LaunchScreen.xib */,
+				604672311ACF12E900691DA8 /* Supporting Files */,
+			);
+			path = HikingTime;
+			sourceTree = "<group>";
+		};
+		604672311ACF12E900691DA8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				604672321ACF12E900691DA8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		604672461ACF12E900691DA8 /* HikingTimeTests */ = {
+			isa = PBXGroup;
+			children = (
+				604672491ACF12E900691DA8 /* HikingTimeTests.swift */,
+				604672471ACF12E900691DA8 /* Supporting Files */,
+			);
+			path = HikingTimeTests;
+			sourceTree = "<group>";
+		};
+		604672471ACF12E900691DA8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				604672481ACF12E900691DA8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6046722D1ACF12E900691DA8 /* HikingTime */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6046724D1ACF12E900691DA8 /* Build configuration list for PBXNativeTarget "HikingTime" */;
+			buildPhases = (
+				6046722A1ACF12E900691DA8 /* Sources */,
+				6046722B1ACF12E900691DA8 /* Frameworks */,
+				6046722C1ACF12E900691DA8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HikingTime;
+			productName = HikingTime;
+			productReference = 6046722E1ACF12E900691DA8 /* HikingTime.app */;
+			productType = "com.apple.product-type.application";
+		};
+		604672421ACF12E900691DA8 /* HikingTimeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 604672501ACF12E900691DA8 /* Build configuration list for PBXNativeTarget "HikingTimeTests" */;
+			buildPhases = (
+				6046723F1ACF12E900691DA8 /* Sources */,
+				604672401ACF12E900691DA8 /* Frameworks */,
+				604672411ACF12E900691DA8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				604672451ACF12E900691DA8 /* PBXTargetDependency */,
+			);
+			name = HikingTimeTests;
+			productName = HikingTimeTests;
+			productReference = 604672431ACF12E900691DA8 /* HikingTimeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		604672261ACF12E900691DA8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Ganger, Keith E";
+				TargetAttributes = {
+					6046722D1ACF12E900691DA8 = {
+						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = H82NNYWF4E;
+					};
+					604672421ACF12E900691DA8 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 6046722D1ACF12E900691DA8;
+					};
+				};
+			};
+			buildConfigurationList = 604672291ACF12E900691DA8 /* Build configuration list for PBXProject "HikingTime" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 604672251ACF12E900691DA8;
+			productRefGroup = 6046722F1ACF12E900691DA8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6046722D1ACF12E900691DA8 /* HikingTime */,
+				604672421ACF12E900691DA8 /* HikingTimeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6046722C1ACF12E900691DA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60A82F691AD46D0C00D948CC /* Settings.bundle in Resources */,
+				604672391ACF12E900691DA8 /* Main.storyboard in Resources */,
+				6046723E1ACF12E900691DA8 /* LaunchScreen.xib in Resources */,
+				6046723B1ACF12E900691DA8 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		604672411ACF12E900691DA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6046722A1ACF12E900691DA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				604672361ACF12E900691DA8 /* ViewController.swift in Sources */,
+				604672341ACF12E900691DA8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6046723F1ACF12E900691DA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6046724A1ACF12E900691DA8 /* HikingTimeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		604672451ACF12E900691DA8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6046722D1ACF12E900691DA8 /* HikingTime */;
+			targetProxy = 604672441ACF12E900691DA8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		604672371ACF12E900691DA8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				604672381ACF12E900691DA8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6046723C1ACF12E900691DA8 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6046723D1ACF12E900691DA8 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6046724B1ACF12E900691DA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6046724C1ACF12E900691DA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6046724E1ACF12E900691DA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HikingTime/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6046724F1ACF12E900691DA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HikingTime/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		604672511ACF12E900691DA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HikingTimeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HikingTime.app/HikingTime";
+			};
+			name = Debug;
+		};
+		604672521ACF12E900691DA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HikingTimeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HikingTime.app/HikingTime";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		604672291ACF12E900691DA8 /* Build configuration list for PBXProject "HikingTime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6046724B1ACF12E900691DA8 /* Debug */,
+				6046724C1ACF12E900691DA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6046724D1ACF12E900691DA8 /* Build configuration list for PBXNativeTarget "HikingTime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6046724E1ACF12E900691DA8 /* Debug */,
+				6046724F1ACF12E900691DA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		604672501ACF12E900691DA8 /* Build configuration list for PBXNativeTarget "HikingTimeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				604672511ACF12E900691DA8 /* Debug */,
+				604672521ACF12E900691DA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 604672261ACF12E900691DA8 /* Project object */;
+}
